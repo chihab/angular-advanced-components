@@ -3,16 +3,7 @@ import { interval, Subscription } from 'rxjs';
 
 @Component({
   selector: 'app-timer',
-  template: '<ng-content></ng-content>',
-  styles: [`
-    :host {
-      width: 200px;
-      font-size: 18px;
-      background-color: #f1f1f1;
-      padding: 10px;
-      box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
-    }
-  `]
+  template: '<ng-content></ng-content>'
 })
 export class TimerComponent implements OnInit {
   private subscription: Subscription;

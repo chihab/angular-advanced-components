@@ -1,9 +1,13 @@
-<div appTimer [interval]="500" [init]="0">
-  <app-timer-toggle></app-timer-toggle>
-  <app-timer-toggle></app-timer-toggle>
-  <app-timer-display></app-timer-display>
-  🌚 🌕 🌖 🌗 🌘 🌑 🌒 🌓 🌔 🌙
-  <app-timer-display></app-timer-display>
-  <app-timer-display></app-timer-display>
-  <app-timer-display></app-timer-display>
-</div>
+<ng-container appTimer [interval]="500" [init]="0">
+  <div>
+    <app-timer-toggle></app-timer-toggle>
+    <app-timer-display></app-timer-display>
+    🌚 🌕 🌖 🌗 🌘 🌑 🌒 🌓 🌔 🌙
+  </div>
+
+  <div>
+    <app-timer-toggle></app-timer-toggle>
+    <app-timer-display></app-timer-display>
+    🌚 🌕 🌖 🌗 🌘 🌑 🌒 🌓 🌔 🌙
+  </div>
+</ng-container>
