@@ -3,7 +3,8 @@ import { interval, Subscription } from 'rxjs';
 
 @Component({
   selector: 'app-timer',
-  template: '<ng-container *ngTemplateOutlet="template; context: {value: value, isPaused: isPaused, start: start,  pause: pause}"></ng-container>'
+  templateUrl: './timer.component.html',
+  styleUrls: ['./timer.component.css']
 })
 export class TimerComponent implements OnInit {
   private subscription: Subscription;
