@@ -5,9 +5,25 @@ app-timer {
 
 div {
   width: 200px;
-  font-size: 18px;
-  background-color: #f19295;
+  font-size: 26px;
+  background-color: #585856;
   padding: 10px;
   box-shadow:0 2px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
   margin: 10px;
 }
+
+button {
+  border: 1px solid lightgrey;
+  padding: 5px 20px;
+  margin: 5px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12)
+}
+
+button:focus {
+  outline: 0 !important;
+}
+
+.paused, .disabled {
+  background-color: lightgrey;
+}
+
