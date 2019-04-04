@@ -1,0 +1,2 @@
+<button [ngClass]="{paused: !timer.isPaused}" (click)="timer.isPaused ? timer.start() : timer.pause()">{{timer.isPaused ? 'START' : 'PAUSE' }}</button>
+<button [ngClass]="{disabled: !timer.isStoppable}" [disabled]="!timer.isStoppable" (click)="timer.stop()">STOP</button>

@@ -1,0 +1,2 @@
+<button [ngClass]="{paused: !isPaused}" (click)="isPaused ? start() : pause()">{{isPaused ? 'START' : 'PAUSE' }}</button>
+<button [ngClass]="{disabled: !isStoppable}" [disabled]="!isStoppable" (click)="stop()">STOP</button>

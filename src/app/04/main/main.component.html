@@ -1,0 +1,9 @@
+<app-timer [interval]="500" [init]="0">
+  <ng-template let-value="value" let-paused="isPaused" let-start="start" let-pause="pause">
+    <div> {{ value }} </div>
+    <div> {{ value }} </div>
+    <div> {{ value }} </div>
+    <div> {{ value }} </div>
+    <button (click)="paused ? start() : pause()"> {{ paused ? 'START' : 'PAUSE'}} </button>
+  </ng-template>
+</app-timer>
