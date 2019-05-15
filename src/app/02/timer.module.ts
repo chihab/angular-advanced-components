@@ -5,9 +5,12 @@ import { TimerComponent } from './timer/timer.component';
 import { TimerToggleComponent } from './timer-toggle/timer-toggle.component';
 import { TimerDisplayComponent } from './timer-display/timer-display.component';
 import { MainComponent } from './main/main.component';
+import { RouterModule } from '@angular/router';
 
 @NgModule({
-  imports: [BrowserModule, FormsModule],
+  imports: [BrowserModule, FormsModule, RouterModule.forChild([
+    { path: '02', component: MainComponent }
+  ])],
   declarations: [
     TimerComponent,
     TimerToggleComponent,
