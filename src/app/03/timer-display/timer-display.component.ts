@@ -8,9 +8,6 @@ import { TimerFromDirective } from '../timer/timer-from.directive';
   styleUrls: ['./timer-display.component.css']
 })
 export class TimerDisplayComponent implements OnInit {
-
-  @Input() value: number;
-
   timer: TimerDirective;
 
   constructor(public timerFrom: TimerFromDirective) {

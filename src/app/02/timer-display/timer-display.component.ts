@@ -7,9 +7,6 @@ import { TimerComponent } from '../timer/timer.component';
   styleUrls: ['./timer-display.component.css']
 })
 export class TimerDisplayComponent {
-
-  @Input() value: number;
-
   constructor(public timer: TimerComponent) {
   }
 
