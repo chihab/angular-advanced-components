@@ -1,5 +1,14 @@
 # Advanced Components Patterns
 
+Code shows how it is possible to move an Angular component from completely static to very configurable (state and view) using inputs, content projection and template references.
+- Basic inputs and ouptuts between parent and child components
+- Write compound components using content projection
+- Share parent component state using dependency injection
+- React's Render Prop pattern using template references
+No advanced skills required, you'd need to know the basics of creating Angular components and directives, use inputs and outputs.
+
+Inspired by Isaac Mann blog posts and Kent. C Dodds Advanced React components patterns.
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.0.
 
 ## Development server
