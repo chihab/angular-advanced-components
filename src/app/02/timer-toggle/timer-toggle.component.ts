@@ -8,7 +8,7 @@ import { TimerComponent } from '../timer/timer.component';
 })
 export class TimerToggleComponent {
 
-  constructor(private timer: TimerComponent) {
+  constructor(public timer: TimerComponent) {
   }
 
 }
